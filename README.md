@@ -21,7 +21,6 @@ A falta de retenção gera um impacto negativo direto no resultado da ClickBus. 
 
 **IDEIA PROPOSTA**: Um programa de fidelidade para retenção de clientes chamado "ClickBus"
 
-#O que foi feito
 **Primeira etapa ETL(Extract, Transform, Load):** Através da ferramenta Pychmarm utilizei análise RFM para segmentar o perfil de clientes afim de trazer uma melhor visão de negócio.
 
 **Segunda etapa - Recorrência com Machine Learning:** Para incentivar a recorrência, utilizei machine learning para construir um modelo preditivo que é capaz de prever, com alta precisão, se um cliente irá comprar nos próximos 7 dias Foi definido uma data de corte (2024-01-01) para separar os dados em um período de treino  e um período de teste (compras feitas nos 7 dias seguintes). Usando as métricas de RFM, criei as características que o modelo usaria para "aprender" o comportamento de compra.
