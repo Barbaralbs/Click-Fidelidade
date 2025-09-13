@@ -19,7 +19,7 @@ O Challenge foi iniciado com 3 desafios principais:
 A falta de retenção gera um impacto negativo direto no resultado da ClickBus. Um cliente não leal tem um Valor Vitalício (CLV) baixo, pois faz uma ou poucas compras. Isso aumenta o Custo de Aquisição de Cliente (CAC), pois a empresa precisa gastar mais em marketing para atrair novos compradores, em vez de investir na sua base atual. Em longo prazo, esse cenário ameaça o crescimento sustentável da empresa e a deixa vulnerável à concorrência.
 
 
-**IDEIA PROPOSTA**: Um programa de fidelidade para retenção de clientes chamado "ClickBus"
+**IDEIA PROPOSTA**: Um programa de fidelidade para retenção de clientes chamado "Click Fidelidade"
 
 **Primeira etapa ETL(Extract, Transform, Load):** Através da ferramenta Pychmarm utilizei análise RFM para segmentar o perfil de clientes afim de trazer uma melhor visão de negócio.
 
