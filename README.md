@@ -11,8 +11,8 @@ A empresa parceira desse Desafio em Ciência de Dados foi a ClickBus. A ClickBus
 
 O Challenge foi iniciado com 3 desafios principais:
 # 1 - Perfil de Compra: Segmentar clientes com base no histórico de compras para entender diferentes perfis de viajantes e direcionar estratégias de marketing.
-# 2 - Previsão da Próxima Compra: Prever se um cliente realizará uma compra nos próximos 7 ou 30 dias (classificação binária).
-# 3-  Previsão do Próximo Trecho: Prever qual trecho (origem-destino) um cliente tem maior probabilidade de comprar em sua próxima viagem (classificação multi-classe ou recomendação).
+# 2 - Previsão da Próxima Compra: Prever se um cliente realizará uma compra nos próximos 7 ou 30 dias.
+# 3-  Previsão do Próximo Trecho: Prever qual trecho (origem-destino) um cliente tem maior probabilidade de comprar em sua próxima viagem 
 
 **O que foi possível concluir**: O problema central que identifiquei é a baixa retenção e a falta de lealdade na base de clientes da ClickBus. Nossas análises de segmentação revelaram que a maioria dos clientes se enquadra nos perfis "em Risco" ou "Novos/Casuais", com baixa frequência de compra. Isso indica que a empresa tem uma alta rotatividade de clientes e não está aproveitando todo o potencial de sua base.
 
