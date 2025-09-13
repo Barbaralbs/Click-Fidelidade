@@ -10,6 +10,11 @@ O tão famoso "Challenge" é uma oportunidade do aluno(a) desmonstrar suas habil
 A empresa parceira desse Desafio em Ciência de Dados foi a ClickBus. A ClickBus é uma plataforma brasileira de venda online de passagens de ônibus, funcionando como uma "travel tech" que conecta passageiros a diversas empresas de ônibus, permitindo a compra de bilhetes através do seu site e aplicativo móvel. A empresa oferece uma grande variedade de opções de destinos, horários e classes de serviço, além de diversas ferramentas para facilitar a compra e otimizar a experiência do usuário, como comparações de preços, seleção de assentos e pagamentos facilitados.
 
 O Challenge foi iniciado com 3 desafios principais:
-## 1 - Perfil de Compra: Segmentar clientes com base no histórico de compras para entender diferentes perfis de viajantes e direcionar estratégias de marketing. (Extra: construir um dashboard).
-## 2 - Previsão da Próxima Compra: Prever se um cliente realizará uma compra nos próximos 7 ou 30 dias (classificação binária). (Extra: prever o número de dias até a próxima compra).
-## 3-  Previsão do Próximo Trecho: Prever qual trecho (origem-destino) um cliente tem maior probabilidade de comprar em sua próxima viagem (classificação multi-classe ou recomendação). (Extra: combinar com o desafio 2, entregando data e trecho).
+# 1 - Perfil de Compra: Segmentar clientes com base no histórico de compras para entender diferentes perfis de viajantes e direcionar estratégias de marketing. (Extra: construir um dashboard).
+# 2 - Previsão da Próxima Compra: Prever se um cliente realizará uma compra nos próximos 7 ou 30 dias (classificação binária). (Extra: prever o número de dias até a próxima compra).
+# 3-  Previsão do Próximo Trecho: Prever qual trecho (origem-destino) um cliente tem maior probabilidade de comprar em sua próxima viagem (classificação multi-classe ou recomendação). (Extra: combinar com o desafio 2, entregando data e trecho).
+
+A primeira etapa ETL(Extract, Transform, Load): Através da ferramenta Pychmarm utilizei análise RFM para segmentar o perfil de clientes afim de trazer uma melhor visão de negócio.
+
+A segunda etapa Recorrência com Machine Learning: Para incentivar a recorrência, utilizei machine learning para construir um modelo preditivo que é capaz de prever, com alta precisão, se um cliente irá comprar nos próximos 7 dias Foi definido uma data de corte (2024-01-01) para separar os dados em um período de treino  e um período de teste (compras feitas nos 7 dias seguintes). Usando as métricas de RFM, criei as características que o modelo usaria para "aprender" o comportamento de compra.
+Utilizei um modelo de Regressão Logística para resolver o problema de classificação binária. O modelo foi treinado para responder "sim" (compra) ou "não" (não compra).
